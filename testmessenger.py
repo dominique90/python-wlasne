@@ -4,9 +4,9 @@
 import unittest
 from selenium import webdriver
 
-login = 'dominique90@gmail.com'
-haslo = 'ramoszenok90'
-zle_haslo = 'dupa'
+login = '*******'
+haslo = '*******'
+zle_haslo = '*******'
 
 
 
