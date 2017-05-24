@@ -34,13 +34,13 @@ class Test_Taking_tires(unittest.TestCase):
         diameter_field.click
         value_field = driver.find_element_by_xpath("//select[@name='_ctTS_ddlDimDiameter']/option[text()='16']")
         value_field.click()
-        tires = driver.find_element_by_xpath("//a[@id='_ctTL_r4_bttnATC']")
-        
+        tires = driver.find_element_by_xpath("//div[@class='cart']")
+        tires.click()
 
 
 
-    def tearDown(self):
-        self.driver.quit()
+
+
 
 
 
